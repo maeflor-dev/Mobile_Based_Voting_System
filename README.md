@@ -22,7 +22,7 @@ To open the system:
 1. Open a web browser (Google Chrome is recommended).
 2. Type the following link in the address bar:
 
-   http://192.168.110.225/Online_Voting/Landing_page.php
+   http://<your-ip-address>/Online_Voting/index.php
 
 3. Press Enter.
 
@@ -196,3 +196,49 @@ You can:
 --------------------------------------------------
 
 END OF GUIDE
+
+
+Tech Stack
+
+📦 Core
+Expo (~54)
+React Native (0.81.5)
+React (19.1.0)
+TypeScript
+
+🧭 Navigation
+Expo Router
+React Navigation (Native Stack, Bottom Tabs, Elements)
+React Native Screens
+
+🎨 UI / UX
+Expo Vector Icons
+React Native Gesture Handler
+React Native Reanimated
+React Native Safe Area Context
+React Native Web
+
+💾 State & Storage
+AsyncStorage (local persistence)
+
+🌐 API / Networking
+Axios
+
+⚙️ Expo Modules
+expo-constants
+expo-font
+expo-haptics
+expo-image
+expo-linking
+expo-splash-screen
+expo-status-bar
+expo-symbols
+expo-system-ui
+expo-web-browser
+
+🧪 Development Tools
+ESLint
+Expo ESLint Config
+TypeScript
+React Native Worklets
+
